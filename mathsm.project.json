@@ -1,0 +1,9 @@
+{
+  "name": "Mathsm",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/ReplicatedStorage"
+    }
+  }
+}
