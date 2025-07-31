@@ -366,7 +366,7 @@ function matrix:flip(direction : Types.flipDirection) : Types.Matrix<{number}>
 	end
 end
 
-function matrix:fromTransform(position, rotationMatrix, scaleVec)
+function matrix.fromTransform(position, rotationMatrix, scaleVec)
 	local scaleMatrix = matrix.new({
 		{scaleVec.vec[1], 0, 0, 0};
 		{0, scaleVec.vec[2], 0, 0};
