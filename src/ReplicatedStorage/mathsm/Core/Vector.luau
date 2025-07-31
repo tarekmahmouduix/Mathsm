@@ -207,6 +207,10 @@ function vecs:magnitude() : number
 	return math.sqrt(total)
 end
 
+function vecs:value() : {number}
+    return self.vec
+end
+
 function vecs:normalize() : Types.Vec<{number}>
 	return self / self:magnitude()
 end
