@@ -72,6 +72,7 @@ export type VecInstance<V = number> = {
 	dot: (b : Vec<V>) -> number;
 	distance: (b : Vec<V>) -> number;
 	project: (b : Vec<V>) -> Vec<V>;
+	value: () -> {number};
 	reflect: (normal : Vec<V>) -> Vec<V>;
 	clamp: (min : number, max : number) -> Vec<V>;
 	toHomogeneous: () -> Vec<V>;
