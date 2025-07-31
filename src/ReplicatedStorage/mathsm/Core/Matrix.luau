@@ -1,11 +1,5 @@
 --!nocheck
 
---[[
-	Type-Safe (each matrix gets verified before continueing)
-	All-Operations (+, *, -, /, inverse)
-
-]]
-
 local HttpService = game:GetService("HttpService")
 local Types = require(script.Parent.Parent.Types)
 local vecs = require(script.Parent.Vector)
